@@ -18,11 +18,15 @@
         "php": ">=5.4.0"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        },
         "laravel": {
             "providers": [
                 "Iyottt\\Helper\\HelperServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
