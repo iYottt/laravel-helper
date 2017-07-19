@@ -1,0 +1,16 @@
+{
+    "name": "iyottt/laravel-helper",
+    "description": "Laravel helper",
+    "authors": [
+        {
+            "name": "Yotsakon Pitinanon",
+            "email": "iyottt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Iyottt\\Helper\\": "src/"
+        }
+    },
+}
