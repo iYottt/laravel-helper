@@ -1,15 +1,31 @@
 {
     "name": "iyottt/laravel-helper",
     "description": "Laravel helper",
+    "keywords": ["laravel", "helper"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Yotsakon Pitinanon",
             "email": "iyottt@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Iyottt\\Helper\\": "src/"
         }
-    }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        },
+        "laravel": {
+            "providers": [
+                "Iyottt\\Helper\\HelperServiceProvider"
+            ]
+        }
+    },
 }
