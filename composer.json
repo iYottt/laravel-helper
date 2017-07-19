@@ -7,7 +7,7 @@
             "email": "iyottt@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "autoload": {
         "psr-4": {
             "Iyottt\\Helper\\": "src/"
